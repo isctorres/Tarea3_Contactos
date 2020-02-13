@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="12dp">
+
+       <ImageButton
+           android:id="@+id/imvContacto1"
+           android:layout_width="180sp"
+           android:layout_height="180sp"
+           android:src="@drawable/image1"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:gravity="center">
+
+           <TextView
+               android:id="@+id/txtContacto1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/strNombre1"
+               style="@style/ListContact"/>
+
+           <TextView
+               android:id="@+id/txtProfesion1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/strProfesion1"
+               style="@style/detailContact"/>
+
+       </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <ImageButton
+            android:id="@+id/imvContacto2"
+            android:layout_width="180sp"
+            android:layout_height="180sp"
+            android:src="@drawable/image2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtContacto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strNombre2"
+                style="@style/ListContact"/>
+
+            <TextView
+                android:id="@+id/txtProfesion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strProfesion2"
+                style="@style/detailContact"/>
+
+        </LinearLayout>
+   </LinearLayout>
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imvContacto3"
+            android:layout_width="180sp"
+            android:layout_height="180sp"
+            android:src="@drawable/image3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtContacto3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strNombre3"
+                style="@style/ListContact"
+                />
+
+            <TextView
+                android:id="@+id/txtProfesion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strProfesion3"
+                style="@style/detailContact"/>
+
+        </LinearLayout>
+   </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="strNombre1">Rosa Pérez</string>
+    <string name="strNombre2">Julián Arreguín</string>
+    <string name="strNombre3">Susy Ramirez</string>
+    <string name="strProfesion1">Secretaria</string>
+    <string name="strProfesion2">Programador</string>
+    <string name="strProfesion3">Diseñadora</string>
+</resources>
